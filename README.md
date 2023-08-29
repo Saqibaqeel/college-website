@@ -43,7 +43,7 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/yourusername/college-website.git
+git clone https://github.com/Saqibaqeel/college-website.git
 Navigate to the project directory:
 
 bash
@@ -74,4 +74,4 @@ Contributions to this project are welcome. Feel free to open issues or pull requ
 License
 This project is licensed under the MIT License.
 
-Enjoy exploring the college website created by Saqib Aqeel! If you have any questions or encounter any issues, please don't hesitate to contact us.
+Enjoy exploring the college website created by Saqib Aqeel! If you have any questions or encounter any issues, please don't hesitate to contact me.
