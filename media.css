@@ -1,0 +1,47 @@
+/* Default styles for larger screens */
+
+
+/* Media query for screens with a max width of 768px */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    body {
+        font-size: 16px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .nav li {
+        margin-right: 10px;
+    }
+
+    .slider img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .event {
+        padding: 20px;
+    }
+
+    .aboutUs {
+        padding: 20px;
+    }
+
+    /* Add more adjustments as needed for smaller screens */
+}
+
+/* Media query for screens with a max width of 480px */
+@media (max-width: 480px) {
+    /* Further adjustments for even smaller screens */
+    body {
+        font-size: 14px;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    /* Additional adjustments as needed */
+}

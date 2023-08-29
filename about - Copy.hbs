@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    header, nav, main, footer {
+        padding: 10px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+}
+
+    </style>
+    <title>About SDES College</title>
+</head>
+<body>
+    {{>navbar}}
+    <main>
+        <section class="about-section">
+            <h2>Welcome to SDES College</h2>
+            <p>SDES College is a leading institution in providing quality education and fostering academic excellence. With a dedicated faculty, state-of-the-art facilities, and a commitment to student success, we prepare our students for a successful future.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 SDES College. All rights reserved.</p>
+    </footer>
+</body>
+</html>

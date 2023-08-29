@@ -1,0 +1,118 @@
+{{!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>CSE Department of SDES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .banner {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px; /* Add margin from banner to the container */
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px 0px #888888;
+        }
+        h2 {
+            text-align: center;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Welcome to CSE Department of SDES</h1>
+    </div>
+    <div class="container">
+        <h2>Registration & Login Form</h2>
+        <form id="registrationForm" method="post" action="index">
+            <label for="regUsername">Username:</label>
+            <input type="text" id="regUsername" name="regUsername" required>
+            <label for="regPassword">Password:</label>
+            <input type="password" id="regPassword" name="regPassword" required>
+             <label for="regPassword">Conform Password:</label>
+            <input type="password" id="regPassword" name="ConformPassword" required>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+            <button type="submit" value="index"> Register</button>
+        </form>
+
+        <hr> <!-- Add a horizontal line to separate the forms -->
+
+        <form id="loginForm" method="post">
+            <h2>Login Form</h2>
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+            <button type="submit" value="register">Login</button>
+        </form>
+    </div>
+    
+    <!-- ... (JavaScript code for form submission) ... -->
+</body>
+</html> --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reg.css">
+    <title>Sign Up - SDES College</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Welcome to CSE Department of SDES</h2>
+            <h3>Sign Up</h3>
+               <form id="registrationForm" method="post" action="index">
+            <label for="regUsername">Username:</label>
+            <input type="text" id="regUsername" name="regUsername" required>
+            <label for="regPassword">Password:</label>
+            <input type="password" id="regPassword" name="regPassword" required>
+             <label for="regPassword">Conform Password:</label>
+            <input type="password" id="regPassword" name="ConformPassword" required>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+            <button type="submit" value="index"> Register</button>
+        </form>
+              <p>Already have an account? <a href="/login">login</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
